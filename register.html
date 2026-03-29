@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - FASE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,ar',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<body>
+
+<!-- HEADER -->
+ <div id="google_translate_element"></div>
+
+<header class="header">
+
+    <div class="header-container">
+
+        <div class="logo-section">
+            <img src="logo.png" class="logo-img">
+            <span class="brand-name">FASE</span>
+        </div>
+
+       <nav class="nav-menu">
+
+    <a href="index.html" class="nav-link">HOME</a>
+
+    <a href="about.html" class="nav-link">ABOUT US</a>
+
+    <!-- TRAINING -->
+    <div class="nav-item dropdown">
+        <a href="courses.html" class="nav-link">TRAINING</a>
+
+        <div class="dropdown-menu">
+
+            <div class="dropdown-item">
+                <a href="#" class="dropdown-link course-link">
+                    Courses <span class="side-arrow">▶</span>
+                </a>
+
+                <div class="sub-dropdown">
+                    <a href="nfpa.html#nfpa">🔥 NFPA Courses</a>
+                    <a href="nfpa.html#safety">🛡 Safety Certifications</a>
+                    <a href="nfpa.html#computer">💻 Computer Courses</a>
+                </div>
+            </div>
+
+            <a href="facilities.html" class="dropdown-link">Facilities</a>
+
+        </div>
+    </div>
+
+    <!-- NEW ITEMS -->
+    <a href="consultancy.html" class="nav-link">CONSULTANCY</a>
+    <a href="directory.html" class="nav-link">DIRECTORY</a>
+
+    <a href="contact.html" class="nav-link">CONTACT</a>
+
+</nav>
+
+    </div>
+</header>
+
+<!-- REGISTER FORM -->
+<section class="page-section">
+    <div class="page-container">
+
+        <h2 class="page-title">Register Now</h2>
+        <p class="page-intro">Fill in your details to enroll in our training programs</p>
+
+        <div class="register-form">
+            <form action="https://formspree.io/f/mykbewyg" method="POST">
+
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" name="full_name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="form-group">
+        <label>Select Course</label>
+        <select name="course" required>
+            <option value="">Choose Course</option>
+            <option>NFPA Training</option>
+            <option>Safety Course</option>
+            <option>Security Systems</option>
+            <option>Computer Course</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" placeholder="Any message..."></textarea>
+    </div>
+
+    <button type="submit" class="cta-button">Submit</button>
+
+</form>
+         
+        </div>
+
+    </div>
+</section>
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/917906715056" class="whatsapp-float" target="_blank">
+    <img src="https://img.icons8.com/?size=100&id=964RahB4l606&format=png&color=ffffff">
+</a>
+
+</body>
+</html>
